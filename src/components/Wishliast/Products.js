@@ -1,14 +1,13 @@
 import React from 'react'
-import ProductCard from '../Utility/ProductCard'
+import ProductCard2 from '../Utility/ProductCard2'
 import product1 from '../../assets/prouducts/product-1.avif'
-import product2 from '../../assets/prouducts/product-2.avif'
-import product3 from '../../assets/prouducts/product-3.avif'
-import product4 from '../../assets/prouducts/product-4.avif'
-import product5 from '../../assets/prouducts/product-5.avif'
-import product6 from '../../assets/prouducts/product-6.avif'
-import { Link } from 'react-router-dom'
+    import product2 from '../../assets/prouducts/product-2.avif'
+    import product3 from '../../assets/prouducts/product-3.avif'
+    import product4 from '../../assets/prouducts/product-4.avif'
+    import product5 from '../../assets/prouducts/product-5.avif'
+    import product6 from '../../assets/prouducts/product-6.avif'
 
-const BestSeller = () => {
+const ProductsCard = () => {
 
 
     const products = [
@@ -71,15 +70,14 @@ const BestSeller = () => {
 
     return (
         <div className='container mx-auto max-w-[1370px] px-2 mt-4'>
-            <div className='flex justify-between'>
-                <h3 className='text-xl tracking-wider capitalize font-bold'>Best seller</h3>
-                <button className='text-lg outline-none text-p hover:text-dark-h'>See more</button>
+            <div className=''>
+                <h3 className='text-xl tracking-wider capitalize font-bold'>Your Wish List</h3>
             </div>
-            <div className='flex justify-center flex-wrap gap-5 px-2'>
+            <div className=''>
                 {
                     products.map(product => {
                         return (
-                            <Link to={`/product/info/${product.id}`} ><ProductCard key={product.id} product={product} /></Link>
+                            <ProductCard2 key={product.id} product={product} />
                         )
                     })
                 }
@@ -88,4 +86,4 @@ const BestSeller = () => {
     )
 }
 
-export default BestSeller
+export default ProductsCard

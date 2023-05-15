@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Registration = () => {
     return (
-        <div className='container mx-auto max-w-[1370px] min-h-[100vh] flex justify-center items-center'>
+        <div className=' min-h-[100vh] flex justify-center items-center'>
             <div className='w-[480px] h-[600px] bg rounded-xl flex flex-col'>
                 <div className='text-center mt-16'>
                     <h2 className='text-2xl font-bold tracking-wider'>Create an account</h2>

@@ -1,9 +1,10 @@
 import React from 'react'
+import Products from '../components/Wishliast/Products'
 
 const WishList = () => {
     return (
-        <div>
-            Wishlist
+        <div className='min-h-[70vh]'>
+            <Products/>
         </div>
     )
 }

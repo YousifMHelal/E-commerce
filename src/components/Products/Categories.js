@@ -9,8 +9,6 @@ import cat6 from '../../assets/categories/cat-6.webp'
 import cat7 from '../../assets/categories/cat-7.webp'
 import cat8 from '../../assets/categories/cat-8.webp'
 import cat9 from '../../assets/categories/cat-9.webp'
-import cat10 from '../../assets/categories/cat-10.webp'
-import { Link } from 'react-router-dom'
 
 
 const Categories = () => {
@@ -60,11 +58,6 @@ const Categories = () => {
             img: cat9,
             name: 'wearables'
         },
-        {
-            id: 10,
-            img: cat10,
-            name: 'furniture'
-        },
     ];
 
     return (
@@ -72,7 +65,7 @@ const Categories = () => {
             {
                 cats.map(item => {
                     return (
-                        <Link to={`/products/cat/${item.id}`}><Cat key={item.id} cat={item} /></Link>
+                        <Cat key={item.id} cat={item} />
                     )
                 })
             }

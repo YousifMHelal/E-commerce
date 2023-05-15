@@ -8,8 +8,7 @@ import product5 from '../../assets/prouducts/product-5.avif'
 import product6 from '../../assets/prouducts/product-6.avif'
 import { Link } from 'react-router-dom'
 
-const BestSeller = () => {
-
+const Deals = () => {
 
     const products = [
         {
@@ -68,11 +67,10 @@ const BestSeller = () => {
         },
     ]
 
-
     return (
         <div className='container mx-auto max-w-[1370px] px-2 mt-4'>
             <div className='flex justify-between'>
-                <h3 className='text-xl tracking-wider capitalize font-bold'>Best seller</h3>
+                <h3 className='text-xl tracking-wider capitalize font-bold'>Deals</h3>
                 <button className='text-lg outline-none text-p hover:text-dark-h'>See more</button>
             </div>
             <div className='flex justify-center flex-wrap gap-5 px-2'>
@@ -88,4 +86,4 @@ const BestSeller = () => {
     )
 }
 
-export default BestSeller
+export default Deals

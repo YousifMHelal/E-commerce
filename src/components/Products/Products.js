@@ -6,9 +6,8 @@ import product3 from '../../assets/prouducts/product-3.avif'
 import product4 from '../../assets/prouducts/product-4.avif'
 import product5 from '../../assets/prouducts/product-5.avif'
 import product6 from '../../assets/prouducts/product-6.avif'
-import { Link } from 'react-router-dom'
 
-const BestSeller = () => {
+const products = () => {
 
 
     const products = [
@@ -66,21 +65,27 @@ const BestSeller = () => {
             offer: 18,
             rate: 4.8
         },
+        
     ]
 
 
     return (
         <div className='container mx-auto max-w-[1370px] px-2 mt-4'>
             <div className='flex justify-between'>
-                <h3 className='text-xl tracking-wider capitalize font-bold'>Best seller</h3>
-                <button className='text-lg outline-none text-p hover:text-dark-h'>See more</button>
+                <h3 className='text-xl tracking-wider capitalize font-bold'>Products Cat name</h3>
             </div>
             <div className='flex justify-center flex-wrap gap-5 px-2'>
                 {
                     products.map(product => {
                         return (
-                            <Link to={`/product/info/${product.id}`} ><ProductCard key={product.id} product={product} /></Link>
-                        )
+                            <div>
+                                <ProductCard key={product.id} product={product} />
+                                <ProductCard key={product.id} product={product} />
+                                <ProductCard key={product.id} product={product} />
+                                <ProductCard key={product.id} product={product} />
+                                <ProductCard key={product.id} product={product} />
+                            </div>
+                            )
                     })
                 }
             </div>
@@ -88,4 +93,4 @@ const BestSeller = () => {
     )
 }
 
-export default BestSeller
+export default products
