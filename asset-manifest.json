@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/E-commerce/static/css/main.b5e160a3.css",
+    "main.js": "/E-commerce/static/js/main.662c8328.js",
+    "static/media/cat-7.webp": "/E-commerce/static/media/cat-7.931ccf538640aff8659d.webp",
+    "static/media/cat-6.webp": "/E-commerce/static/media/cat-6.1b9c18df4e09f650ad69.webp",
+    "static/media/cat-2.webp": "/E-commerce/static/media/cat-2.6caa153f526e1ed5687b.webp",
+    "static/media/cat-9.webp": "/E-commerce/static/media/cat-9.77c29decbb0de1686aa9.webp",
+    "static/media/slide-1.png": "/E-commerce/static/media/slide-1.2dd327c8847289f652f6.png",
+    "static/media/cat-8.webp": "/E-commerce/static/media/cat-8.adce3da6f9b366cbbe70.webp",
+    "static/media/cat-5.webp": "/E-commerce/static/media/cat-5.4dd6461c5a980f5e7fcb.webp",
+    "static/media/cat-1.webp": "/E-commerce/static/media/cat-1.2fb15833ab73a052e52c.webp",
+    "static/media/cat-4.webp": "/E-commerce/static/media/cat-4.b285a029f1bbdac9213b.webp",
+    "static/media/cat-3.webp": "/E-commerce/static/media/cat-3.369b67f5876408fe9104.webp",
+    "static/media/slide-4.png": "/E-commerce/static/media/slide-4.0642e74587d994a1014d.png",
+    "static/media/slide-3.png": "/E-commerce/static/media/slide-3.385bc897acd6a42d3879.png",
+    "static/media/slide-2.png": "/E-commerce/static/media/slide-2.c32d5a6096a180fadb45.png",
+    "static/media/offer.png": "/E-commerce/static/media/offer.dbb1c62349f27c13b05a.png",
+    "static/media/slide-5.png": "/E-commerce/static/media/slide-5.65b5377575c1961c47f4.png",
+    "static/media/cat-10.webp": "/E-commerce/static/media/cat-10.3c523a5500eadd827361.webp",
+    "static/media/product-1.avif": "/E-commerce/static/media/product-1.7008bcdf48f7f15e09a1.avif",
+    "static/media/product-5.avif": "/E-commerce/static/media/product-5.72f4d4f5d56dbfd4f13c.avif",
+    "static/media/product-6.avif": "/E-commerce/static/media/product-6.6da7ed3de76e56f6f797.avif",
+    "static/media/product-4.avif": "/E-commerce/static/media/product-4.0747a66975dc42d2a111.avif",
+    "static/media/product-2.avif": "/E-commerce/static/media/product-2.049d16fa352bb7498032.avif",
+    "static/media/product-3.avif": "/E-commerce/static/media/product-3.15d3e8b662930b817854.avif",
+    "index.html": "/E-commerce/index.html",
+    "main.b5e160a3.css.map": "/E-commerce/static/css/main.b5e160a3.css.map",
+    "main.662c8328.js.map": "/E-commerce/static/js/main.662c8328.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5e160a3.css",
+    "static/js/main.662c8328.js"
+  ]
+}
