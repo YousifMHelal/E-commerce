@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className='w-full bg-slate-700 text-white'>
             <nav className='container mx-auto max-w-[1370px] px-2 py-2 flex items-center max-md:py-2'>
                 {/* -----Logo----- */}
-                <Link to='/' className='font-bold text-xl tracking-widest py-2 uppercase mr-8 max-md:hidden flex'>Ecommerce</Link>
+                <Link to='/E-commerce' className='font-bold text-xl tracking-widest py-2 uppercase mr-8 max-md:hidden flex'>Ecommerce</Link>
                 <input
                     className='w-full py-1 px-2 rounded mx-4 outline-none text-p max-md:text-sm'
                     placeholder={`What're you looking for ?`}

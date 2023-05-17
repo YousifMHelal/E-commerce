@@ -68,7 +68,7 @@ const Deals = () => {
     ]
 
     return (
-        <div className='container mx-auto max-w-[1370px] px-2 mt-4'>
+        <div className='container mx-auto max-w-[1370px] mt-4'>
             <div className='flex justify-between'>
                 <h3 className='text-xl tracking-wider capitalize font-bold'>Deals</h3>
                 <button className='text-lg outline-none text-p hover:text-dark-h'>See more</button>
